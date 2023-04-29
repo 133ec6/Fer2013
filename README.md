@@ -32,7 +32,7 @@ Downlaod the repo or clone it
 ```
 Download and extract the dataset from Kaggle link above.
 
-Run the `preprocessing.py` file, which would generate `fadataX.npy` and `flabels.npy` files for you.
+Run the `preprocessing.py` file, which would generate `fdataX.npy` and `flabels.npy` files for you.
 
 Run the `fertrain.py` file,  this would take sometime depending on your processor and gpu. Took around 1.5 hour for with an Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz   2.30 GHz. This would create `modXtest.npy`, `modytest,npy`, `fer.json` and `fer.h5` file for you.
 
@@ -47,7 +47,7 @@ You can get the confusion matrix for this model by running `confmatrix.py` file.
 
 # Model Summary
 
-The layers in the Convolution Neural Network used in implementing this classifier can be summarized as follows. You can git a similar summary by decommenting the `model.summar()` function before executing `fertrain.py` file.
+The layers in the Convolution Neural Network used in implementing this classifier can be summarized as follows. You can git a similar summary by decommenting the `model.summary()` function before executing `fertrain.py` file.
 
 #Real Time Testing
 
